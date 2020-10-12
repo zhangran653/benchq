@@ -11,7 +11,7 @@ import java.util.stream.Stream;
  * @since 2020-09-07
  **/
 @Data
-public class PeekIterator<T> implements Iterator<T> {
+public class   PeekIterator<T> implements Iterator<T> {
     private Iterator<T> it;
 
     private LinkedList<T> cachedQueue = new LinkedList<>();
